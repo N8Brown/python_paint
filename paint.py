@@ -25,7 +25,7 @@ def paint(event):
 
 def change_brush_size(x):
     brush_size_label.config(text='%0.0f' % float(brush_size_slider.get()))
-
+    print(type(brush_size_slider.get()))
 
 def change_brush_color():
     global brush_color
